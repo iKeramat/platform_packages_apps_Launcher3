@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2016-2022 crDroid Android Project
+     Copyright (C) 2023 The LibreMobileOS Foundation
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -30,4 +30,7 @@
 
     <!-- String representing the fragment class for recents view settings activity.-->
     <string name="recents_settings_fragment_name" translatable="false">com.android.launcher3.settings.SettingsRecents$RecentsSettingsFragment</string>
+
+    <!-- Themed icons -->
+    <string name="drawable_factory_class" translatable="false">com.android.launcher3.icons.ThirdPartyDrawableFactory</string>
 </resources>
