@@ -84,6 +84,13 @@
 
     <resolve
         launcher:screen="0"
+        launcher:x="2"
+        launcher:y="3"
+        launcher:packageName="org.fdroid.fdroid"
+        launcher:className="org.fdroid.fdroid.views.main.MainActivity"/>
+
+    <favorite
+        launcher:screen="0"
         launcher:x="3"
         launcher:y="-1" >
         <favorite launcher:uri="#Intent;action=android.intent.action.MAIN;category=android.intent.category.APP_MARKET;end" />
