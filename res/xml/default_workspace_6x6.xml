@@ -91,13 +91,6 @@
             launcher:className="com.google.apps.dots.android.app.activity.CurrentsStartActivity" />
     </folder>
 
-    <favorite
-        launcher:screen="0"
-        launcher:x="3"
-        launcher:y="5"
-        launcher:packageName="org.fdroid.fdroid"
-        launcher:className="org.fdroid.fdroid.views.main.MainActivity"/>
-
     <resolve
         launcher:screen="0"
         launcher:x="5"
