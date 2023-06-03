@@ -123,14 +123,6 @@ public class InfoBottomSheet extends WidgetsBottomSheet {
             super.onDestroy();
         }
 
-        private QuickstepTransitionManager getAppTransitionManager() {
-            return mAppTransitionManager;
-        }
-
-        public ActivityOptionsWrapper getActivityLaunchOptions(View v) {
-            return mAppTransitionManager.getActivityLaunchOptions(v);
-        }
-
         @Override
         public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
             addPreferencesFromResource(R.xml.app_info_preferences);
